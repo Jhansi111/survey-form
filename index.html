@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> indexpage</title>
+	<meta name= "viewport" content= "width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+</head>
+<body>
+    <h1 id="title">Customer Feedback Survey Form </h1>
+<p id="description">** Please let us know about your experience with our product and service **</p>
+<form id="survey-form">
+<div class="labels" style="color:green;"> Please leave your email address if you would like us to contact you regarding any questions.</div>
+  <div><div class="labels">
+<label id="name-label" for="name">* Name</label> </div>  
+   <input id="name" type="text" name="uname" placeholder="ex:yourname" required><br>
+  </div></div><div><div class="labels"><label id="email-label" for="email">* E-mail</label> </div><div>
+   <input id="email" type="email" name="e-mail" placeholder="ex:youename@example.com" required ><br></div></div>
+    <div><div class="labels"><label id="number-label" for="number" >* Age</label> </div><div> 
+   <input id="number" type="number" name="num" min="5" max="150" placeholder="ex:23" required><br></div></div> <div class="labels">
+     <label for="dropdown"> Would you recommend it to your friends and colleagues?      </label>
+      <select id="dropdown">  
+        <option disabled  value>Select an option</option>
+  <option value="yes">Definitely</option>   
+     <option value="maybe">Maybe</option>    
+    <option value="notsure">Not sure</option>      
+       </select> </div><div><div class="labels">
+         Is this the first time you are using our Products and services?</div>
+    <div class="rightTab"> <input type="radio"  name="rec" value="yes">YES
+      <input type="radio"  name="rec" value="no">NO</div></div>
+                  <div class="labels">                            
+                    How satisfied are you with our company overall?</div>
+<div class="rightTab">
+    <input type="radio"    name="reco" value="yes1">Very Satisfied<br>
+<input type="radio"   name="reco" value="yes2">Satisfied<br>
+<input type="radio"   name="reco"value="dontknow">Undecided<br>  
+ <input type="radio"  name="reco" value="no1">Unsatisfied<br>
+  <input type="radio"   name="reco" value="no2">Very Unsatisfied</div>              <div class="labels"> 
+     How would you rate our [type of products]?</div><div class="rightTab">
+      <input  type="checkbox" value="consis">Consistent High Quality<br>
+       <input   type="checkbox" value="consis1">Generally Good <br>                          <input type="checkbox" value="consis2">Quality Varies Daily<br>
+       <input   type="checkbox" value="consis3"> Poor Quality</div>
+<div class="labels">
+  Do you have any suggestions to improve our product and service?</div>
+
+  <textarea placeholder="enter"  rows="3" cols="60"> </textarea> <br>
+          <button type="submit" id="submit">Submit</button>    
+</form>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>    
+</body>
+</html>

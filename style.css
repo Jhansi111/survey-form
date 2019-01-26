@@ -1,0 +1,110 @@
+@import
+  url(https://fonts.googleapis.com/css?family=Slabo+27px);
+*{
+  box-sizing:border-box;
+}
+h1{
+  font-size:45px;
+  text-align:center;
+  font-family: 'Slabo 27px', serif;
+  text-decoration: underline;
+}
+p{
+  font-size:20px;
+  margin-left:120px;
+  font-family: 'Rubik', sans-serif;
+}
+#survey-form{
+   background:lightgreen;
+  text-align:center;
+  width:83% ;
+ margin-top: 25px ;
+  margin-left:120px;
+}
+input{
+  width:50%;
+  margin:10px;
+  padding:10px;
+ border:none;
+  border-radius:6px;
+  
+}
+input:hover{
+  border:1px solid yellow;
+}
+.labels {
+  display: inline-block;
+  text-align: center;
+  width: 70%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+  font-size:20px;
+  font-family: 'Roboto Slab', serif;
+}
+#description{
+ font-family: 'Bitter', serif;
+}
+.rightTab {
+  display: inline-block;
+  text-align: left;
+width:40%;
+  color:	#333333;
+  vertical-align: middle;
+  font-size:18px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.rightTab:hover{
+  border:1px solid yellow;
+}
+#dropdown{
+  padding:4px;
+   width:20%;
+  font-size:17px;
+}
+  input[type=radio], input[type=checkbox] {
+    border: 0px;
+        height: 1.5em;
+}
+button[type=submit]{
+  background: #59ace0;
+  margin-top:10px;
+  padding:13px 20px 13px 20px;
+border:none;
+  color:white;
+  font-size:20px;
+  font-family:sans-serif;
+  border-radius:4px;
+}
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+  #survey-form{
+    margin-left:20px;
+   
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+  textarea{
+    width:70%;
+  }
+}
